@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,74,154,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: sans-serif;
+}
+form{
+    padding: 50px;
+    width: 24%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.form-text a{
+    text-decoration: none;
+}
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,74,154,1) 35%, rgba(0,212,255,1) 100%);
+}
+.form-control{
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+}
+@media screen and (max-width:600px){
+    form{
+        width: 100%;
+    }
+}
